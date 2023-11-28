@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>product list</title>
+</head>
+<body>
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>product</title>
+	<link rel="stylesheet" type="text/css" href="main1.css">
+	<link rel="javascript" type="text/js" href="main.js">
+</head>
+<body onload="offer(),clock()">
+	<div class="back">
+		<div id="header"><div id="name"><div class="rectangle">
+			<marquee>The wait is over—our sale starts today!</marquee><br/><div id="offerTime">Time</div>
+		</div><h1>Apna market  </h1></div><div id="logo">
+			<img src="cart3.png" height="100px" width="100px"  />
+				<a href="login.html"><button id="login">Login</button></a><a href="signup.html"><button id="Signup">Sign Up</button></a>
+		</div></div>
+		<div id="nav">
+			<div id="home" ><a href="home.html"><button class="nav">HOME</button></a></div>
+			<div id="product" ><button class="nav">PRODUCT</button></div>
+			<div id="tracking"><button class="nav" onclick="track()">TRACK</button></div>
+			<div id="about" ><a href="about.html"><button class="nav">ABOUT US</button></a></div>
+		</div>
+		<div id="data">
+			<div id="dataRow1">
+				<div id="dataRow1col1" name="t-shirt"><img src="tshirt.jpg" class="dataRow1col1Photo" /></div>
+				<div id="dataRow1col2">
+				<div class="orderDetailList">
+				Product Name:T-shirt<br/>Color:Black<br/>Size:M<br/>Seller Name:V.S.Collection
+				</div>
+				<div class="orderDetailList">
+				Color:<select style="height: 30px;border-radius: 0px; width: 80px;"><option>Black</option><option>Red</option></select><br/><br/>Size:<select><option>M</option><option>L</option></select><br/><br/>Qty:<input type="number" min="1" max="5" style="height: 20px;border-radius: 0px; width: 50px;" />
+				</div>
+				<div class="orderDetailList"><button id="cart" class="dataRow1col1Book">Price:399 Rs<br/>Add to Cart</button></div></div>
+				
+			</div>
+			<div id="dataRow1">
+				
+			</div>
+			<div id="dataRow1">
+				
+			</div>
+			<div id="dataRow1">
+				
+			</div>
+
+		</div>
+		<div id="footer"><div id="copyright"><br/>&copy All Right Reserve | Apna market </div>
+		<div id="time"><label>time</label><br/><label>date</label></div></div>
+
+	
+    </div>
+
+</body>
+
+	<div id="dataRow2col"><img src="belt.jpg" height="200px" width="200px"/><br/><div class="orderDetail">Product Name:Belt<br/>Color:Brown<br/>Size:42<br/>Seller Name:L.S.collection</div><button id="cart"onclick="order()">Price:299 Rs<br/>Add to Cart</button></div>
+<script>
+	function jiten() {
+		var x = document.getElementById('dataRow2col').innerHTML
+		var y = document.getElementsByName('t-shirt')[0].innerHTML
+		document.getElementsByName('t-shirt')[0].innerHTML= x
+
+		
+
+	}
+	
+	
+	
+</script>
+</html>
+
+</body>
+</html>

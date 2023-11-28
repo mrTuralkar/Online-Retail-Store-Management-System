@@ -1,0 +1,357 @@
+.back{
+	width: 100%;
+	height: 650px;
+	background: white;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	color: #ff9900;
+	background: #232f3e;;
+	position: 	relative;
+
+	
+}
+#nav{
+	height: 50px;
+	background: white;
+
+}
+#data{
+	height: 450px;
+	width: 100%;
+	background: whitesmoke;
+	overflow: scroll;
+}
+.dataRow1{
+	width:100%;
+	height: 50%;
+	background: white;
+
+}
+#dataRow1col{
+	width:25%;
+	height: 100%;
+	background: white;
+	float: left;
+	text-align: center;
+	position: 	relative;
+}
+
+#dataRow1col:hover{
+	background: whitesmoke;
+}
+.dataRow2{
+	width:100%;
+	height:50%;
+}
+#dataRow2col{
+	height: 100%;
+	width:25%;
+	background: white;
+	float: left;
+	text-align: center;
+	position: relative;
+
+}
+#dataRow2col:hover{
+	background: whitesmoke;
+
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background: #232f3e;
+}
+#name{
+	background:#232f3e;
+	width:60%;
+	height: 100px;
+	float: left;
+	text-align: right;
+	font-size: 25px;
+
+
+}
+#logo{
+	width: 40%;
+	height: 100%;
+	float: right;
+	text-align: left;
+	background: #232f3e;
+	transform: translateX(0px);
+	
+}
+#login{
+	width : 150px;
+	height : 50px;
+	transform: 	translate(80px,-40px);
+	border-radius: 20px;
+	background: green;
+	color: 	white;
+	font-size: 	20px;
+	font-weight: bold;
+	}
+#login:hover{
+	background: whitesmoke;
+	color: 	black;
+}
+#Signup{
+	width : 150px;
+	height : 50px;
+	transform: 	translate(100px,-40px);
+	border-radius: 	20px;
+	background: red;
+	color: 	white;
+	font-size: 	20px;
+	font-weight: bold;
+	}
+#Signup:hover{
+	background:whitesmoke;
+	color: black;
+}
+#cart{
+	width:200px;
+	height: 40px;
+	background: blue;
+	color: 	white;
+	transform: 	translateY(-20px);
+	border-radius: 	20px;
+	transition: 3s;
+}
+#dataRow1col:hover #cart{
+	background: green;
+	height: 50px;
+	width: 	250px;
+	font-size: 20px;
+	transform: 	translateY(-30px);
+	transition: 3s;
+}
+#dataRow2col:hover #cart{
+	background: green;
+	height: 50px;
+	width: 	250px;
+	font-size: 20px;
+	transform: 	translateY(-30px);
+	transition: 3s;
+}
+.nav{
+	width: 25%;
+	height: 50px;
+	background: black;
+	color: white;
+	float: left;
+	font-size: 	25px;
+	font-weight: bold;
+	
+
+
+}
+.nav:hover{
+	background: white;
+	color: black;}
+#footer{
+	text-align: center;
+	background: #232f3e;
+	color: white;
+	position: sticky;
+	bottom: 0px;
+
+}
+#copyright{
+	width: 70%;
+	height: 50px;
+	float: 	left;
+
+}
+#time{
+	width: 30%;
+	height: 50px;
+	background: #146eb4;
+	float: left	;
+	/*border:1px red dotted;*/
+	font-size: 	20px;
+}
+
+.rectangle{
+	height: 70px;
+	width: 400px;
+	position: absolute;
+	left :40px;
+	top:8px;
+	border-radius: 20px;
+	border:5px dotted	green;
+	background-color:#9AFEFF ;
+	padding: 2px;
+	animation-name: rectangle;
+	animation-duration: 10s;
+	animation-iteration-count: 	infinite;
+	transition: 10s;
+	font-size: 	25px;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: 0px 0px 5px 5px white;
+
+}
+
+@keyframes rectangle {
+	0%{
+		color: 	#36013F;
+		border:7px dotted green;
+		
+	}
+	25%{
+		color:red;
+		border:7px dotted red;
+		
+	}
+	75%{
+		color:#36013F;
+		border:7px dotted purple;
+		
+	}
+	100%{
+		color:red;
+		border:7px dotted green;
+		
+	}
+}
+
+#aboutcol{
+	height: 100%;
+	width:33.33%;
+	float: 	left;
+	background: whitesmoke;
+	font-size: 	20px;
+	font-weight: bolder;
+	
+}
+
+#form{
+	height: 90%;
+	width: 	90%;
+	background: floralwhite;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 5px double	black;
+	text-align: center;
+}
+ 
+ input{
+ 	width: 	80%;
+ 	height: 50px;
+ 	border-radius: 	10px;
+ }
+
+ #message{
+ 	width: 	80%;
+ 	height: 100px;
+ 	border-radius: 	10px;
+ 	
+ }
+
+ .saleposter{
+ 	height: 100%;
+ 	width: 	100%;
+ }
+
+ .orderDetail{
+ 	width	: 60% ;
+ 	height: 50%;
+ 	position: 	absolute;
+ 	left: 	80px;
+ 	top:50px;
+ 	background: rgba(173, 188, 230, 1);
+ 	opacity: 1;
+ 	border-radius: 	10px;
+ 	text-align: left;
+ 	font-size: 	20px;
+ 	opacity: 0;
+ 	padding: 5px;
+ 	color: 	#800000;
+ }
+ #dataRow1col:hover .orderDetail{
+ 	opacity: 1;
+
+ }
+ #dataRow2col:hover .orderDetail{
+ 	opacity: 1;
+
+ }
+ #next{
+ 	height: 50px;
+ 	width: 	50px;
+ 	border-radius: 30px;
+ 	position: absolute	;
+ 	right: 	20px;
+ 	bottom:45%;
+ 	background: blue;
+ 	color: 	whitesmoke;
+ 	font-size: 	40px;
+ 	font-weight: bold;
+
+ }
+ #next:hover{
+ 	background: green;
+ }
+ 
+
+#dataRow1{
+	height: 200px;
+	width: 	100%;
+	background: yellow;
+	border: 1px solid black;
+
+}
+#dataRow1col1{
+	width: 	24%;
+	height: 90%;
+	background-color: cyan;
+	float: 	left;
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 	20px;
+
+
+}
+.dataRow1col1Photo{
+	width: 	80%;
+	height: 80%;
+	border-radius: 10px;
+	transform: 	translate(20px ,20px);
+}
+
+.orderDetailList{
+	width: 	31%;
+	height: 80%;
+	border-radius: 10px;
+	background: lightslategrey;
+	font-size: 20px;
+	float: 	left;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+.dataRow1col1Book{
+	width: 	200px;
+	height: 200px;
+	border-radius: 10px;
+	transform: 	translate(150px ,40px);
+	margin: 80px;
+}
+.dataRow1col1Book:hover{
+	background: green;
+	color: 	white;
+}
+#dataRow1col2{
+	width: 73%;
+	background: orange;
+	height: 90%;
+	border: 1px solid black;
+	border-radius: 	20px;
+	float: left;
+	margin: 7px;
+	transform:translate(0px,5px);
+}
